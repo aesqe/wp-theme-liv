@@ -10,7 +10,7 @@ body
 {
 	font-family: "PT Serif", serif;
 	background: #f6f6f6;
-	color: #444;
+	color: #555;
 	font-size: 62.5%;
 	margin: 0;
 }
@@ -95,12 +95,14 @@ body
 a
 {
 	color: #21759B;
+	color: #6C7C90;
 	text-decoration: none;
 }
 
 .entry-content a,
 .comment-content a
 {
+	color: #121212;
 	border-bottom: 1px solid #76889B;
 }
 
@@ -204,7 +206,7 @@ figure {
 .entry-title,
 .search .page .entry-title
 {
-	font-size: 3.1em;
+	font-size: 2.8em;
 	text-align: left;
 	font-weight: bold;
 	margin: 0 0 10px 0px;
@@ -345,6 +347,7 @@ textarea {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	font-family: inherit;
+	font-size: 1em;
 	padding: 6px;
 }
 button,
@@ -356,6 +359,19 @@ textarea {
 	overflow: auto;
 	vertical-align: top;
 }
+
+fieldset
+{
+	border: 1px solid #EEE;
+	border-radius: 3px;
+	padding: 1em 2em;;
+}
+
+legend {
+	font-size: 2em;
+	font-weight: bold;
+}
+
 
 /* Reset non-text input types */
 input[type="checkbox"],
@@ -538,7 +554,7 @@ img.wp-smiley,
 .site-title
 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.1em;
 	text-transform: none;
 }
 
@@ -607,7 +623,7 @@ div.nav-menu > ul > li
 	display: block;
 	line-height: 1.5em;
 	text-decoration: none;
-	font-family: Lato, Arial, sans-serif;
+	/*font-family: Lato, Arial, sans-serif;*/
 	text-transform: uppercase;
 }
 
@@ -806,9 +822,8 @@ h4,
 h5,
 h6
 {
-	font-family: Lato, Arial, sans-serif;
+	/*font-family: Lato, Arial, sans-serif;*/
 	font-weight: 700;
-	/*text-transform: uppercase;*/
 }
 
 .entry-content h1,
@@ -1223,6 +1238,7 @@ img.aligncenter,
 }
 .main-navigation li {
 	position: relative;
+	font-size: 1.5em;
 }
 .main-navigation li ul {
 	display: none;
@@ -1245,7 +1261,7 @@ img.aligncenter,
 	display: block;
 }
 .main-navigation li li {
-	font-size: 0.7647058823529412em;
+	font-size: 0.8em;
 	box-shadow: 0px 0px 1px 0 rgba(0,0,0,0.15);
 }
 .main-navigation li li li {
@@ -1328,7 +1344,7 @@ img.aligncenter,
 	text-transform: uppercase;
 	font-size: 12px;
 	position: relative;
-	font-family: Lato, Arial, sans-serif;
+	/*font-family: Lato, Arial, sans-serif;*/
 }
 
 .navigation a:hover,
@@ -1509,32 +1525,8 @@ img.aligncenter,
 #colophon .site-info p
 {
 	font-size: 1.3em;
-	font-family: Lato, Arial, sans-serif;
+	/*font-family: Lato, Arial, sans-serif;*/
 }
-
-#paypal-donate-form fieldset
-{
-	background: #FAFAFA;
-	border: 1px solid #EEE;
-	padding: 25px;
-}
-
-#paypal-donate-form
-{
-	font-size: 1.5em;
-}
-
-#paypal-donate-form input[type="text"]
-{
-	font-family: Lato, Arial, sans-serif;
-}
-
-#paypal-donate-form input[type="image"]
-{
-	float: right;
-	margin-top: 4px;
-}
-
 
 
 
@@ -2014,4 +2006,18 @@ a.comment-edit-link:hover {
 	{
 		line-height: 2;
 	}
+}
+
+
+
+
+
+#paypal-donate
+{
+	border: none; padding: 24px; margin: 0 12px 12px 12px; background: #f8f8f8; border-radius: 8px;
+}
+
+#paypal-donate fieldset
+{
+	background: #FFF;
 }

@@ -1,13 +1,4 @@
-<?php
-/**
- * The template for displaying Search Results pages.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 	<section id="primary" class="site-content">
 		<div id="content" role="main">
